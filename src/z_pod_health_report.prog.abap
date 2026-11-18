@@ -18,7 +18,7 @@ START-OF-SELECTION.
     ( pod_name = 'agent-ops-7d9' namespace = 'default'  restarts = 5 )
     ( pod_name = 'web-2b1'       namespace = 'default'  restarts = 0 )
     ( pod_name = 'job-4c8'       namespace = 'batch'    restarts = 2 )
-  ).
+    ).
 
   LOOP AT gt_pods INTO gs_pod.
     IF gs_pod-restarts >= 3.
