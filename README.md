@@ -21,7 +21,7 @@ ABAP Platform Developer Edition 要几十 GB 和一个 SAP 账号，不在这次
 那为什么还要写？因为**能被检查的部分是真的**：
 
 - `.abapgit.xml` 是 abapGit 的标准格式，任何有 ABAP 系统的开发者可以导入
-- `abaplint` 是开源的 ABAP 静态检查器，CI 会跑它——语法结构和命名规则能验证
+- `abaplint` 是开源的 ABAP 静态检查器，3 个文件本地跑过：`0 issues`（2.120.109，ABAP release v793）
 - `cl_http_client` 的调用顺序（create → set_method → set_cdata → send → receive）是标准用法
 
 这三点合起来，比一份"我学过 ABAP"的陈述更硬，但也不能说成"我写过生产 ABAP"。
