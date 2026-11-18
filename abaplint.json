@@ -1,0 +1,38 @@
+{
+  "global": {
+    "files": "/src/**/*.*"
+  },
+  "syntax": {
+    "version": "v758",
+    "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_|LTCL_)"
+  },
+  "rules": {
+    "begin_end_names": true,
+    "check_ddic": true,
+    "check_include": true,
+    "check_syntax": true,
+    "global_class": true,
+    "implement_methods": true,
+    "method_implemented_twice": true,
+    "parser_error": true,
+    "unknown_types": true,
+    "unreachable_code": true,
+    "unused_variables": true,
+    "in_statement_indentation": true,
+    "colon_missing_space": true,
+    "sequential_blank": true,
+    "space_before_colon": false,
+    "space_before_dot": false,
+    "avoid_use": {
+      "define": true,
+      "endselect": false,
+      "execSQL": true,
+      "kernelModule": true,
+      "communication": false,
+      "system_exit": true
+    },
+    "line_length": {
+      "length": 120
+    }
+  }
+}
