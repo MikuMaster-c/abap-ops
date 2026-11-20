@@ -1,2 +1,7 @@
 node_modules/
 package-lock.json
+
+# 本地工具配置（不进仓库）
+.claude/
+.vscode/
+.idea/
