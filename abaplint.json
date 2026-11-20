@@ -2,8 +2,15 @@
   "global": {
     "files": "/src/**/*.*"
   },
+  "dependencies": [
+    {
+      "url": "https://github.com/open-abap/open-abap-core",
+      "folder": "/open-abap-core",
+      "files": "/src/**/*.*"
+    }
+  ],
   "syntax": {
-    "version": "v758",
+    "version": "v754",
     "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_|LTCL_)"
   },
   "rules": {
